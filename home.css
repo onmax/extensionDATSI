@@ -1,0 +1,56 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300,400,700';
+body{
+    
+    background: rgb(241, 244, 245);
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat',sans-serif;
+    width: 90%;
+    margin: 0 auto;
+}
+body::after{
+    content: "Realizado por Máximo García";
+    position: absolute;
+    right: 10%;
+}
+a{
+    color: #365ec0;
+    
+}
+body table{
+    width: 25% !important;
+}
+body table tbody tr td img{
+    width: 150px;
+} 
+h1{
+    margin-top: 0;
+}
+hr{
+    display: none;
+}
+center table tbody tr td img{
+    display: none;
+}
+center table tbody tr td a{
+    font-weight: bold;
+
+}
+
+center table{
+
+    min-width: 300px;
+    border:0;
+    width: 500px !important;
+    margin: 0;
+}
+tr {
+border-color:rgb(241, 244, 245);
+}
+th,td {
+border:0;
+padding: 10px;
+}
+
+td{     
+}

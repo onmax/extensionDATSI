@@ -1,0 +1,21 @@
+{
+
+  "manifest_version": 2,
+  "name": "DATSI",
+  "version": "1.1",
+ 
+  "description": "Cambia el diseño de la página web del DATSI",
+
+  "icons": {
+    "48": "i48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.datsi.fi.upm.es/*"],
+      "js": ["home.js"],
+      "css": ["home.css"]
+    }
+  ]
+
+}
